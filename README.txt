@@ -1,0 +1,1 @@
+Inside the folder of 'Poker Game' is the BlackJack.py, the blackjack_bg.jpg, and the folder with all card pngs, I am using Microsoft Visual Studio Code to create and run this code, just open the folder in your workspace and have fun!
