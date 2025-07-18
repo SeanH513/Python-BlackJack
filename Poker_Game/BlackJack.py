@@ -10,7 +10,7 @@ ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 
 
 # Build card image mapping
 card_image_map = {}
-image_folder = r"C:\Users\seanh\Desktop\Coding_stuff\Python_Projects\Poker_Game\Cards"
+image_folder = r"INPUT PATH TO Cards FILE HERE"
 
 suit_lookup = {'H': 'Hearts', 'S': 'Spades', 'D': 'Diamonds', 'C': 'Clubs'}
 for fname in os.listdir(image_folder):
@@ -27,7 +27,7 @@ root = tk.Tk()
 root.title("Blackjack")
 root.geometry("800x600")
 
-bg_image = Image.open(r"C:\Users\seanh\Desktop\Coding_stuff\Python_Projects\Poker_Game\blackjack_bg.jpg")
+bg_image = Image.open(r"INPUT PATH TO blackjack_bg.jpg FILE HERE")
 bg_photo = ImageTk.PhotoImage(bg_image)
 bg_label = tk.Label(image=bg_photo)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
